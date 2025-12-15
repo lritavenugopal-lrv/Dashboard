@@ -1,5 +1,5 @@
 
-# Idaho County-Level Incidence Visualization App
+# County-Level Incidence Visualization App
 
 ##  Overview
 This Shiny application provides an interactive dashboard to visualize the **number of reported cases** for various conditions across Idaho counties over time. Users can select a condition and a county to view yearly incidence trends from **2017 to 2025**.  
