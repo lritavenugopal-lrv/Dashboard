@@ -49,7 +49,7 @@ lubridate
 shiny
 ggplot2
 dply
-
+```
 ---
 
 ## Data Dictionary
@@ -69,20 +69,7 @@ dply
 
 ---
 
-## Dependencies
-Ensure the following R packages are installed:
 
-```r
-tidycensus
-tidyverse
-httr
-jsonlite
-plotly
-readreadxl
-readr
-lubridate
-shiny
-ggplot2
 
 
 
