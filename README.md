@@ -49,3 +49,50 @@ lubridate
 shiny
 ggplot2
 dply
+
+---
+
+## Data Dictionary
+
+| Column Name    | Description                                                                 |
+|---------------|-----------------------------------------------------------------------------|
+| **Condition** | Name of the reported disease or condition (e.g., Tuberculosis, Salmonellosis). |
+| **Date**      | Date and time when the case was reported, in `MM/DD/YYYY HH:MM` format.    |
+| **County**    | Name of the Idaho county where the case was reported (e.g., Canyon, Owyhee). |
+| **County_Code** | 5-digit FIPS code for the county (e.g., Canyon = `16027`).               |
+
+### **Assumptions**
+- All records are for **Idaho** (State FIPS = 16).
+- Dates span **2017–2025**.
+- Conditions are standardized to avoid duplicates (e.g., all Salmonellosis variants grouped as “Salmonellosis”).
+- 2025 data is **provisional** and may change.
+
+---
+
+## Dependencies
+Ensure the following R packages are installed:
+
+```r
+tidycensus
+tidyverse
+httr
+jsonlite
+plotly
+readreadxl
+readr
+lubridate
+shiny
+ggplot2
+
+
+
+
+
+
+
+
+
+
+
+
+
